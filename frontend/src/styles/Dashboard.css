@@ -1,0 +1,12 @@
+.dashboard-container {
+  min-height: calc(100vh - 120px);
+}
+
+.summary-row > * {
+  min-height: 150px;
+}
+
+.transaction-panel,
+.form-panel {
+  width: 100%;
+}

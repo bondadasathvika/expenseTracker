@@ -1,0 +1,17 @@
+.transaction-form {
+  display: grid;
+  gap: 16px;
+}
+
+.transaction-form label {
+  width: 100%;
+}
+
+.transaction-form input,
+.transaction-form select {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transaction-form input::placeholder {
+  color: rgba(226, 232, 240, 0.6);
+}
